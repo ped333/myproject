@@ -66,7 +66,7 @@ class StaffController extends Controller
      */
     public function show($id)
     {
-        $staffs = staff::findOrFail($id);
+        $staff = staff::findOrFail($id);
 
         return view('staff.show', compact('staff'));
     }
@@ -79,7 +79,7 @@ class StaffController extends Controller
      */
     public function edit($id)
     {
-        $staffs = staff::findOrFail($id);
+        $staff = staff::findOrFail($id);
 
         return view('staff.edit', compact('staff'));
     }

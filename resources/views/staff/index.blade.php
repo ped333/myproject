@@ -15,10 +15,10 @@
     @foreach($staffs as $item)
     <tr class="text-center">
         <td>{{ $item->id  }}</td>
-        <td>{{ $item->name }}</td>
-        <td>{{ $item->age }}</td>
-        <td>{{ $item->salary }}</td>
-        <td>{{ $item->phone}}</td>
+        <td>{{ $item->Name }}</td>
+        <td>{{ $item->Age }}</td>
+        <td>{{ $item->Salary }}</td>
+        <td>{{ $item->Phone}}</td>
         <td>
             <a href="{{ url('/staff/'.$item->id ) }}" class="btn btn-sm btn-primary">View</a>
              <a href="{{ url('/staff/'.$item->id.'/edit' ) }}" class="btn btn-sm btn-warning">Edit</a>

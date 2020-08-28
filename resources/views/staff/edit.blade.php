@@ -1,3 +1,4 @@
+@extends('bootstrap-theme')
 @section('content')
 
 <h1>Edit staff Recrod #{{ $staff->id }}</h1>
