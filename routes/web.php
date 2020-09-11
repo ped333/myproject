@@ -58,3 +58,11 @@ Route::resource('/staff' , "StaffController");
 
 
 
+
+Route::resource('post', 'PostController');
+Route::resource('post', 'PostController');
+Route::resource('post', 'PostController');
+Route::resource('book', 'BookController');
+Route::resource('street', 'streetController');
+Route::resource('street', 'streetController');
+Route::resource('street', 'streetController');
