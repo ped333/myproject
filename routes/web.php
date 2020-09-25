@@ -73,3 +73,8 @@ Route::resource('street', 'streetController');
 Route::resource('street', 'streetController');
 Route::resource('street', 'streetController');
 
+
+Route::resource('book', 'BookController');
+Route::resource('profiles', 'profilesController');
+Route::resource('users', 'usersController');
+Route::resource('vehicles', 'vehiclesController');
